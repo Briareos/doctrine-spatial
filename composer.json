@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/spatial",
+    "name": "yvann/doctrine-spatial-bundle",
     "type": "library",
     "authors": [
         {"name": "Jan Sorgalla", "email": "jsorgalla@googlemail.com"}
