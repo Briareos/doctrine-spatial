@@ -1,6 +1,6 @@
 {
     "name": "yvann/doctrine-spatial-bundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "authors": [
         {"name": "Jan Sorgalla", "email": "jsorgalla@googlemail.com"}
     ],
