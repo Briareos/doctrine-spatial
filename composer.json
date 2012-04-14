@@ -1,19 +1,21 @@
 {
     "name": "yvann/doctrine-spatial-bundle",
     "type": "symfony-bundle",
+    "description": "Provides a doctrine spatial integration for your Symfony2 Project.",
+    "keywords": ["doctrine spatial"],
     "authors": [
-        {"name": "Jan Sorgalla", "email": "jsorgalla@googlemail.com"}
+        {"name": "Yvann Boucher", "email": "yvann.boucher@gmail.com"}
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/console": "2.1.0-dev",
-        "symfony/class-loader": "2.1.0-dev",
+        "symfony/console": "master-dev",
+        "symfony/class-loader": "master-dev",
         "doctrine/common": "master-dev",
         "doctrine/dbal": "master-dev",
         "doctrine/orm": "master-dev",
-        "jsor/dbal-sqlite3": "master-dev"
     },
     "autoload": {
-        "psr-0": { "Doctrine\\Spatial": "src/" }
-    }
+        "psr-0": { "Ybo\\DoctrineSpatialBundle": "" }
+    },
+    "target-dir": "Ybo/DoctrineSpatialBundle"
 }
