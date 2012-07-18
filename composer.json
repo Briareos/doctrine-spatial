@@ -1,6 +1,6 @@
 {
-    "name": "yvann/doctrine-spatial-bundle",
-    "type": "symfony-bundle",
+    "name": "doctrine/spatial",
+    "type": "package",
     "description": "Provides doctrine spatial data types.",
     "keywords": ["doctrine spatial"],
     "authors": [
