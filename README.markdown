@@ -24,6 +24,7 @@ Update your `config.yml` file and under `doctrine.dbal` add the following types:
                 multipolygon:       Doctrine\Spatial\DBAL\Types\MultiPolygonType
                 geometrycollection: Doctrine\Spatial\DBAL\Types\GeometryCollectionType
 
+
 License
 -------
 
