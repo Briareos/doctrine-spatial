@@ -1,18 +1,16 @@
-Doctrine Spatial Extension
-==========================
+# Doctrine Spatial Extension
 
-Installation
-------------
+## Installation
 
 Doctrine\Spatial can be installed using the [Composer](http://packagist.org/) tool. You can either add `doctrine/spatial` to your package dependencies, or if you want to install Doctrine\Spatial as standalone, go to the main directory of this package and run:
 
     $ wget http://getcomposer.org/composer.phar
     $ php composer.phar install
     
-Integration with Symfony2
--------------------------
+## Integration with Symfony2
 
 Update your `config.yml` file and under `doctrine.dbal` add the following types:
+
     doctrine:
         dbal:
             types:
@@ -25,7 +23,6 @@ Update your `config.yml` file and under `doctrine.dbal` add the following types:
                 geometrycollection: Doctrine\Spatial\DBAL\Types\GeometryCollectionType
 
 
-License
--------
+## License
 
-The Doctrine Spatial Extension is released under the [MIT License](https://github.com/jsor/doctrine-spatial/blob/master/LICENSE).
+The Doctrine Spatial Extension is released under the [MIT License](https://github.com/Briareos/doctrine-spatial/blob/master/LICENSE).
