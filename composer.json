@@ -4,6 +4,7 @@
     "description": "Provides doctrine spatial data types.",
     "keywords": ["doctrine spatial"],
     "authors": [
+        {"name": "Jan Sorgalla", "email": "jsorgalla@googlemail.com"},
         {"name": "Milos Colakovic", "email": "Briareos@github"}
     ],
     "require": {
